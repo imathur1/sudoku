@@ -171,7 +171,7 @@ function generate() {
         }
     }
 
-    let givens = Math.floor(Math.random() * 23 + 17);
+    let givens = Math.floor(Math.random() * 24 + 22);
     board = randomRemoval(board, givens);
     return board;
 }
